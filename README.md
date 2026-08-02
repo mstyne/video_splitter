@@ -6,6 +6,10 @@ Splits MP4/MOV/MKV files into ~5 second clips without cutting words mid-speech.
 Uses Silero VAD to find speech/silence boundaries, and falls back to cutting
 at the quietest point in the target window when no true silence gap is found.
 
+Example output, batch-processing a folder of videos with descriptions enabled:
+
+![Example terminal output showing per-clip length, captions, transcripts, and progress bars](docs/screenshots/example-output.png)
+
 ## Prerequisites
 
 `ffmpeg` and `ffprobe` must be on your `PATH`. On macOS:
