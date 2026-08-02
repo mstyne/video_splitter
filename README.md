@@ -67,6 +67,10 @@ data. `test_pipeline.py` generates a synthetic fixture video with known
 ground-truth silence gaps (via `generate_fixture.py`, using macOS `say` for real
 speech) and runs the full pipeline end-to-end against it.
 
+## License
+
+Licensed under the [Apache License 2.0](LICENSE.md).
+
 ## Authorship
 
 This code was written by Claude (model `claude-sonnet-5`, reasoning effort `low`),
