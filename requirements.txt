@@ -1,0 +1,8 @@
+torch
+silero-vad
+soundfile
+numpy
+rich
+faster-whisper
+transformers
+pillow

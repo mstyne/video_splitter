@@ -1,0 +1,7 @@
+output*/
+__pycache__/
+.pytest_cache/
+.venv/
+videos/
+tests/fixtures/IMG_7056.MOV
+.DS_Store
