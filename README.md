@@ -1,5 +1,7 @@
 # Video Splitter
 
+[![Tests](https://github.com/mstyne/video_splitter/actions/workflows/tests.yml/badge.svg)](https://github.com/mstyne/video_splitter/actions/workflows/tests.yml)
+
 Splits MP4/MOV/MKV files into ~5 second clips without cutting words mid-speech.
 Uses Silero VAD to find speech/silence boundaries, and falls back to cutting
 at the quietest point in the target window when no true silence gap is found.
